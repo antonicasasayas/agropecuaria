@@ -1,5 +1,5 @@
 import React from 'react'
-import farmer from '../images/farmer-holding-box(1).webp'
+import farmer from '../images/farmer-holding-box.png'
 const Hero = () => {
   return (
     <div className="mt-8 text-white">
@@ -13,7 +13,7 @@ const Hero = () => {
         molt allò que fem.{" "}
           </p>
           <button className='bg-white my-8 text-lg rounded-md px-8 font-roboto-bold py-3 tracking-wide text-black'>Contactar</button>
-          <img src={farmer} alt="farmer" />
+          <img src={farmer} className='absolute bg-background left-0 w-screen object-contain' alt="farmer" />
     </div>
   );
 }
