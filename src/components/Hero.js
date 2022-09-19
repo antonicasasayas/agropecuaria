@@ -4,7 +4,7 @@ import { BsArrowUpRight } from 'react-icons/bs'
 const Hero = () => {
   return (
     <div className="mt-8 text-white mb-56 ">
-      <h1 className="font-austhind tracking-wide text-5xl">
+      <h1 className="mt-12 font-september tracking-wide text-5xl">
         Collida diàriament del camp a taula
       </h1>
       <div className="w-68 mt-4  h-12 border-t-4 rounded-tl-huge rounded-tr-massive border-t-mustard border-transparent "></div>

@@ -7,7 +7,7 @@ module.exports = {
       "roboto-light": ["Roboto Light"],
       "roboto-bold": ["Roboto Bold"],
       "germalt-bold-it": ['Germalt Bold Italic'],
-      "austhind": ['Austhind']
+      "september": ['September']
     },
     extend: {
        width: {

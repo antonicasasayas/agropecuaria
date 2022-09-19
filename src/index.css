@@ -37,8 +37,8 @@
 }
 
 @font-face {
-  font-family: 'Austhind';
-  src: local('Austhind'), url(./fonts/Austhind/Austhind.ttf) format('truetype');
+  font-family: 'September';
+  src: local('September'), url(./fonts/GenerationSeptember/Generation\ September.ttf) format('truetype');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
