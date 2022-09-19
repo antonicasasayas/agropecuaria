@@ -3,8 +3,8 @@ import farmer from "../images/farmer-holding-box.png";
 import { BsArrowUpRight } from 'react-icons/bs'
 const Hero = () => {
   return (
-    <div className="mt-8 text-white">
-      <h1 className="font-dancing text-6xl">
+    <div className="mt-8 text-white mb-56 ">
+      <h1 className="font-austhind tracking-wide text-5xl">
         Collida diàriament del camp a taula
       </h1>
       <div className="w-68 mt-4  h-12 border-t-4 rounded-tl-huge rounded-tr-massive border-t-mustard border-transparent "></div>
@@ -13,7 +13,7 @@ const Hero = () => {
         família Casasayas. Fa més de 50 anys que treballem la terra i ens agrada
         molt allò que fem.{" "}
       </p>
-      <div className="flex ">
+      <div className="flex  ">
         <button className="bg-white mr-6 my-8 text-lg rounded-md px-8 font-roboto-bold py-3 tracking-wide text-gray-800">
           Contactar
         </button>
@@ -22,11 +22,14 @@ const Hero = () => {
           <BsArrowUpRight />
         </button>
       </div>
-      <img
-        src={farmer}
-        className="absolute bg-background left-0 w-screen object-contain"
-        alt="farmer"
-      />
+
+     
+        <img
+          src={farmer}
+          className="absolute  bg-background left-0 w-screen object-contain"
+          alt="farmer"
+        />
+     
     </div>
   );
 };
